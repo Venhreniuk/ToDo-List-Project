@@ -105,5 +105,36 @@ ul li span{
 
 ul li span:hover{
     background: #edeef0;
+}
 
+@media(min-width: 320px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
+}
+
+@media(min-width: 780px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
+}
+
+@media(min-width: 990px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    .clients {
+        display: grid;
+        gap: 5px;
+    }
 }
