@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  
 <head>
-    <meta charset="UTF-8">
-    <title>Hello World</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<div>
-  <h1>Hello World, my name is Paolo</div>
-  <h2> This is my first site on GitHub</h3>
-  <h3>SEE YA</h3>
-  </div
-  </body>
+  <div class="container">
+    <div class="todo-app">
+      <h2>To Do List</h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your text">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-countainer">
+        <!--<li class="checked">task</li>-->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
